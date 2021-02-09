@@ -3,7 +3,7 @@ import random
 def game():
     user = input("Enter a 'r' for rock, 'p' for paper and 's' for scissors\n")
     comp = random.choice(['r', 'p', 's'])
-    print(comp)
+
     if user == comp:
         return 'None survive'
 
